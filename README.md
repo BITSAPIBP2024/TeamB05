@@ -7,6 +7,7 @@ This repo consists set of APIs that can be used for Event tickets re-selling
 
 ## Documentation
 
+[Repo Link](https://github.com/ShamikG17/tradetix-backend)
 [Documentation](https://bitsapibp2024.github.io/TeamB05/)
 
 
