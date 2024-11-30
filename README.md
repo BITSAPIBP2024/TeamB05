@@ -7,7 +7,7 @@ This repo consists set of APIs that can be used for Event tickets re-selling
 
 ## Documentation
 
-[Documentation](https://bitsapibp2024.github.io/TeamB10)
+[Documentation](https://bitsapibp2024.github.io/TeamB05/)
 
 
 ## License
