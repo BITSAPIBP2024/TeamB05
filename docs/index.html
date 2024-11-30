@@ -67,46 +67,6 @@
               <ul class="nav flex-column">
               </ul>
             </li>
-            <li class="nav-item" data-bs-level="2"><a href="#requirement-why-is-there-a-need-for-a-ticket-reselling-application" class="nav-link">Requirement : Why Is There a Need for a Ticket Reselling Application?</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#1-overview" class="nav-link">1. Overview</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#2-purpose" class="nav-link">2. Purpose</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#3-target-audience" class="nav-link">3. Target Audience</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#4-problem-statement" class="nav-link">4. Problem Statement</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#5-business-needs" class="nav-link">5. Business Needs</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#6-goals-and-objectives" class="nav-link">6. Goals and Objectives</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#7-functional-requirements" class="nav-link">7. Functional Requirements</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#8-non-functional-requirements" class="nav-link">8. Non-Functional Requirements</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
-            <li class="nav-item" data-bs-level="2"><a href="#9-conclusion" class="nav-link">9. Conclusion</a>
-              <ul class="nav flex-column">
-              </ul>
-            </li>
               </ul>
             </li>
         </ul>
@@ -184,79 +144,163 @@
 <li><strong>MetaMask, SmartContract</strong>: For crypto transaction.</li>
 </ul>
 <p>&nbsp;</p>
-<h2 id="requirement-why-is-there-a-need-for-a-ticket-reselling-application">Requirement : Why Is There a Need for a Ticket Reselling Application?</h2>
-<p>&nbsp;</p>
-<h2 id="1-overview">1. Overview</h2>
-<p>The ticket reselling application provides a platform for individuals to buy and sell event tickets securely, transparently, and efficiently. This document outlines the primary reasons and business needs driving the development of this application.</p>
+<p><strong>Trade-Tix API Documentation</strong></p>
+<p>The Trade-tix platform facilitates a secure and user-friendly marketplace for reselling concert tickets. The platform connects buyers, sellers, and admins, streamlining ticket transactions and event management.</p>
 <hr />
-<h2 id="2-purpose">2. Purpose</h2>
-<p>To address the gaps and challenges faced by consumers and resellers in the current ticketing market. The application aims to provide a seamless, user-friendly platform to facilitate ticket reselling, ensuring security, fair pricing, and convenience.</p>
+<h3 id="key-stakeholders"><strong>Key Stakeholders:</strong></h3>
+<ol>
+<li><strong>Buyers:</strong></li>
+<li>Browse and purchase tickets for available events.</li>
+<li>Make payments via Razorpay or blockchain.</li>
+<li><strong>Sellers:</strong></li>
+<li>List tickets for events already on the platform.</li>
+<li>Request the creation of new events if not listed.</li>
+<li><strong>Admins:</strong></li>
+<li>Oversee platform operations, ensuring smooth transactions and policy compliance.</li>
+<li>Create events and manage event requests from sellers.</li>
+<li>Earn a commission from transactions.</li>
+</ol>
 <hr />
-<h2 id="3-target-audience">3. Target Audience</h2>
+<h3 id="stakeholder-goals-defined"><strong>Stakeholder Goals Defined</strong></h3>
+<h4 id="1-admin-goals"><strong>1. Admin Goals</strong></h4>
 <ul>
-<li><strong>Primary Users</strong>: Individuals looking to resell or purchase event tickets.</li>
-<li><strong>Secondary Users</strong>: Event organizers, ticketing agencies, and marketers.</li>
-</ul>
-<hr />
-<h2 id="4-problem-statement">4. Problem Statement</h2>
-<h3 id="41-for-buyers">4.1 For Buyers</h3>
-<ul>
-<li><strong>Scalping</strong>: Buyers often face inflated ticket prices due to resellers exploiting demand.</li>
-<li><strong>Fake Tickets</strong>: Many buyers fall victim to fraudulent or duplicate tickets.</li>
-<li><strong>Limited Options</strong>: Current platforms offer restricted access to tickets for high-demand events.</li>
-</ul>
-<h3 id="42-for-sellers">4.2 For Sellers</h3>
-<ul>
-<li><strong>Inconvenience</strong>: No dedicated, easy-to-use platform for securely reselling tickets.</li>
-<li><strong>Price Inefficiency</strong>: Sellers often cannot set fair prices due to unregulated platforms or lack of demand insights.</li>
-</ul>
-<hr />
-<h2 id="5-business-needs">5. Business Needs</h2>
-<h3 id="51-consumer-demand">5.1 Consumer Demand</h3>
-<ul>
-<li>Events with limited seating often sell out quickly, creating a need for reselling.</li>
-<li>Buyers frequently seek last-minute tickets, creating a secondary market.</li>
-</ul>
-<h3 id="52-security-and-trust">5.2 Security and Trust</h3>
-<ul>
-<li>Building a trusted environment to minimize fraud risks.</li>
-</ul>
-<h3 id="53-convenience">5.3 Convenience</h3>
-<ul>
-<li>Simplified process for listing tickets and matching buyers and sellers.</li>
-<li>web application for easy access.</li>
-</ul>
-<h3 id="54-analytics-and-insights">5.4 Analytics and Insights</h3>
-<ul>
-<li>Providing buyers with transparency in pricing and availability.</li>
+<li>As an admin, I want to <strong>create and manage events</strong> so buyers and sellers can interact seamlessly.</li>
+<li>As an admin, I want to <strong>approve or reject seller event requests</strong> so that the platform only features relevant and legitimate events.</li>
+<li>As an admin, I want to <strong>earn a commission on transactions</strong> so that the platform generates revenue.</li>
+<li>As an admin, I want to <strong>monitor user transactions</strong> so that the platform complies with policies and prevents fraud.</li>
+<li>As an admin, I want to <strong>manage seller roles and listings</strong> to ensure high-quality and authentic ticket sales.</li>
 </ul>
 <hr />
-<h2 id="6-goals-and-objectives">6. Goals and Objectives</h2>
-<h3 id="61-goals">6.1 Goals</h3>
+<h4 id="2-seller-goals"><strong>2. Seller Goals</strong></h4>
 <ul>
-<li>To create a marketplace for secure and transparent ticket reselling.</li>
-<li>To ensure an exceptional user experience for both buyers and sellers.</li>
-</ul>
-<h3 id="62-objectives">6.2 Objectives</h3>
-<ul>
-<li>Facilitate seamless payment processing with buyer/seller protection.</li>
+<li>As a seller, I want to <strong>list tickets for resale</strong> so that I can monetize my unused or extra tickets.</li>
+<li>As a seller, I want to <strong>set and update ticket prices</strong> so that I can maximize profits based on demand.</li>
+<li>As a seller, I want to <strong>request new events</strong> so that I can list tickets for events not already on the platform.</li>
+<li>As a seller, I want to <strong>manage my listings</strong> so that I can update ticket availability and details as needed.</li>
+<li>As a seller, I want to <strong>receive timely payments</strong> for sold tickets to maintain trust and business continuity.</li>
 </ul>
 <hr />
-<h2 id="7-functional-requirements">7. Functional Requirements</h2>
+<h4 id="3-buyer-goals"><strong>3. Buyer Goals</strong></h4>
 <ul>
-<li><strong>User Registration</strong>: Secure sign-up and profile management.</li>
-<li><strong>Listing Tickets</strong>: Options to upload ticket.</li>
-<li><strong>Secure Payment Gateway</strong>: Enable transactions with multiple payment options.</li>
+<li>As a buyer, I want to <strong>browse and filter events</strong> so that I can easily find tickets for concerts of interest.</li>
+<li>As a buyer, I want to <strong>purchase tickets securely</strong> so that I can attend events without worrying about fraud.</li>
+<li>As a buyer, I want to <strong>view event details and ticket prices</strong> so that I can make informed purchasing decisions.</li>
+<li>As a buyer, I want to <strong>track my purchase history</strong> so that I can reference past transactions when needed.</li>
 </ul>
 <hr />
-<h2 id="8-non-functional-requirements">8. Non-Functional Requirements</h2>
+<h3 id="resources"><strong>Resources</strong></h3>
+<p>This section provides a detailed explanation of each resource in the system, its purpose, key attributes, and associated actions (CRUD operations). Each resource connects the stakeholders (Admin, Seller, Buyer) to the platform's functionality.</p>
+<hr />
+<h3 id="1-events"><strong>1. Events</strong></h3>
+<h4 id="purpose"><strong>Purpose:</strong></h4>
+<p>Represents concerts or shows listed on the platform. Events can be created by admins or requested by sellers for approval.</p>
+<h4 id="key-attributes"><strong>Key Attributes:</strong></h4>
 <ul>
-<li>Data security to protect user information and payment details.</li>
-<li>Minimal downtime for a seamless experience.</li>
+<li><strong>name</strong>: The title of the event (e.g., "Rock Fest 2024").</li>
+<li><strong>date</strong>: The scheduled date of the event.</li>
+<li><strong>venue</strong>: Location where the event is held.</li>
+<li><strong>performers</strong>: List of artists or bands performing at the event.</li>
+<li><strong>categories</strong>: Tags (e.g., "music", "rock").</li>
+<li><strong>isAvailable</strong>: Whether the event is open for ticket listings.</li>
+<li><strong>validFrom / validTo</strong>: The validity period for ticket sales.</li>
+<li><strong>createdBy / updatedBy</strong>: References to the user who created or updated the event.</li>
+</ul>
+<h4 id="actions"><strong>Actions:</strong></h4>
+<ul>
+<li><strong>GET <code>/events</code>: Fetch all available events (Buyers).</strong></li>
+<li><strong>POST <code>/events</code>: Create an event (Admins only).</strong></li>
+<li><strong>POST <code>/events/:id/tickets</code>: <em>Create new tickets for a specific event. (Sellers)</em></strong></li>
+<li><strong>GET <code>/events/:id</code>: <em>Fetch details of an event by its ID.</em></strong></li>
+<li><strong>GET <code>/events/:id/tickets</code>: <em>Retrieve all tickets associated with a specific event. (Buyers)</em></strong></li>
+<li><strong>PUT <code>/events/:id</code>: Update event details (Admins only).</strong></li>
+<li><strong>DELETE <code>/events/:id</code>: Remove an event (Admins only).</strong></li>
 </ul>
 <hr />
-<h2 id="9-conclusion">9. Conclusion</h2>
-<p>A ticket reselling application addresses the growing need for a reliable, secure, and transparent platform for ticket exchanges. By solving key pain points for buyers and sellers, the application has the potential to revolutionize the secondary ticketing market, ensuring customer satisfaction and driving significant business value.</p></div>
+<h3 id="2-tickets"><strong>2. Tickets</strong></h3>
+<h4 id="purpose_1"><strong>Purpose:</strong></h4>
+<p>Represents individual tickets tied to specific events. Each ticket has an owner (Seller) and a seat assignment.</p>
+<h4 id="key-attributes_1"><strong>Key Attributes:</strong></h4>
+<ul>
+<li><strong>eventID:</strong> Reference to the associated event.</li>
+<li><strong>ownerID:</strong> The seller who owns the ticket.</li>
+<li><strong>seatNumber:</strong> The assigned seat (optional).</li>
+<li><strong>createdBy / updatedBy:</strong> References to the user who created or updated the ticket.</li>
+</ul>
+<h4 id="actions_1"><strong>Actions:</strong></h4>
+<ul>
+<li><strong>GET <code>/tickets/:id/listings</code>: <em>Retrieve all listings of a specific ticket by its ID.</em></strong></li>
+<li><strong>POST <code>/tickets/:id/listing</code>: <em>Create a listing for a specific ticket by its ID.</em></strong></li>
+<li><strong>PUT <code>/tickets/:id</code>: Update ticket details (Sellers or Admins).</strong></li>
+<li><strong>DELETE <code>/tickets/:id</code>: Remove a ticket (Sellers or Admins).</strong></li>
+</ul>
+<hr />
+<h3 id="3-listings"><strong>3. Listings</strong></h3>
+<h4 id="purpose_2"><strong>Purpose:</strong></h4>
+<p>Represents tickets put up for resale by sellers. Each listing includes ticket details and price.</p>
+<h4 id="key-attributes_2"><strong>Key Attributes:</strong></h4>
+<ul>
+<li><strong>ticketID:</strong> Reference to the ticket being listed.</li>
+<li><strong>price:</strong> Sale price for the ticket.</li>
+<li><strong>status:</strong> Whether the listing is "open" (available) or "closed" (sold or withdrawn).</li>
+<li><strong>createdBy / updatedBy:</strong> References to the seller managing the listing.</li>
+</ul>
+<h4 id="actions_2"><strong>Actions:</strong></h4>
+<ul>
+<li><strong>POST <code>/listings/:id/buy</code>: <em>Purchase the listed ticket by its ID.</em></strong></li>
+<li><strong>PUT <code>/listings/:id</code>: <em>Update the details of a ticket listing by its ID</em></strong></li>
+<li><strong>DELETE <code>/listings/:id</code>: <em>Delete a specific ticket listing by its ID.</em></strong></li>
+</ul>
+<hr />
+<h3 id="4-transactions"><strong>4. Transactions</strong></h3>
+<h4 id="purpose_3"><strong>Purpose:</strong></h4>
+<p>Represents completed purchases where buyers buy tickets from sellers.</p>
+<h4 id="key-attributes_3"><strong>Key Attributes:</strong></h4>
+<ul>
+<li><strong>ticketID:</strong> Reference to the ticket sold.</li>
+<li><strong>sellerID:</strong> Reference to the seller of the ticket.</li>
+<li><strong>salePrice:</strong> The final transaction amount.</li>
+<li><strong>createdBy / updatedBy:</strong> References to users initiating and recording the transaction.</li>
+</ul>
+<h4 id="actions_3"><strong>Actions:</strong></h4>
+<ul>
+<li><strong>GET <code>/transactions</code>: View all transactions (Buyers or Sellers).</strong></li>
+<li><strong>POST <code>/transactions</code>: Record a new transaction (Buyers).</strong></li>
+</ul>
+<hr />
+<h3 id="5-users"><strong>5. Users</strong></h3>
+<h4 id="purpose_4"><strong>Purpose:</strong></h4>
+<p>Represents platform participants, including admins, buyers, and sellers. Users can authenticate and perform actions based on their roles.</p>
+<h4 id="key-attributes_4"><strong>Key Attributes:</strong></h4>
+<ul>
+<li><strong>username:</strong> Unique identifier for the user.</li>
+<li><strong>password:</strong> Encrypted user password.</li>
+<li><strong>role:</strong> Either "admin", "seller", or "buyer".</li>
+<li><strong>tokens:</strong> Array of authentication tokens for session management.</li>
+<li><strong>accountNumber / IFSCCode:</strong> Seller's bank details for payouts.</li>
+</ul>
+<h4 id="actions_4"><strong>Actions:</strong></h4>
+<ul>
+<li><strong>POST <code>/users</code>: Register a new user.</strong></li>
+<li><strong>GET <code>/users</code>: <em>Retrieve all users.</em></strong></li>
+<li><strong>POST <code>/users/login</code>: Authenticate a user and retrieve a token.</strong></li>
+<li><strong>GET <code>/users/:id</code>: <em>Fetch details of a user by their ID.</em></strong></li>
+<li><strong>PUT <code>/users/:id</code>: Update user details by their ID</strong></li>
+<li><strong>DELETE <code>/users/:id</code>: Remove a user account.</strong></li>
+<li><strong>POST <code>/users/logout</code>: logout a user</strong></li>
+</ul>
+<hr />
+<h3 id="authentication"><strong>Authentication</strong></h3>
+<ul>
+<li>The platform uses <strong>JWT (JSON Web Token)</strong> for authentication.</li>
+</ul>
+<hr />
+<h3 id="authorization"><strong>Authorization</strong></h3>
+<ul>
+<li>The platform implements two scopes for access control:</li>
+<li><strong>User Scope</strong>: For Buyers and Sellers to perform actions related to tickets, listings, and their accounts.</li>
+<li><strong>Admin Scope</strong>: For Admins to manage events, users, and platform-wide operations.</li>
+</ul>
+<hr /></div>
             </div>
         </div>
 
@@ -338,5 +382,5 @@
 
 <!--
 MkDocs version : 1.6.1
-Build Date UTC : 2024-11-28 17:06:12.447355+00:00
+Build Date UTC : 2024-11-30 07:06:23.429314+00:00
 -->
