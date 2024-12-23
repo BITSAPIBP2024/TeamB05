@@ -13,7 +13,7 @@ This repo consists set of APIs that can be used for Event tickets re-selling
 
 ## License
 
-[MIT](https://github.com/BITSAPIBP2024/TeamB10/blob/main/LICENSE)
+[MIT](https://github.com/BITSAPIBP2024/TeamB05/blob/main/LICENSE)
 
 
 ## Team Details 
