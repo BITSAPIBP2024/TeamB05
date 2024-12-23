@@ -1,32 +1,32 @@
 # Project Evaluation 
 
-## 1. Team A01
+## 1. Team B01
+
 #### 1. Overview
-The primary goals of the APIs in this project are to provide a robust and secure mechanism for managing gold provenance and verification using blockchain technology. The APIs are used to support the entire lifecycle of gold transactions, from registration to verification and transfer The APIs are designed to facilitate interactions between different roles in the system, namely "Buyers" and "Sellers." These roles are differentiated through JWT tokens, allowing for secure and role-based access to various functionalities. The APIs ensure the authenticity and traceability of gold by allowing Sellers to register gold on the blockchain, and enabling Buyers to verify and transfer gold securely.
+The Dynamic Blog API is a highly scalable and feature-rich solution designed for managing blog posts within an organization. It supports robust role-based authorization with JWT authentication, allowing admins to manage blog content and users to interact with it seamlessly. The API includes advanced features like pagination, sorting, API versioning, and AI-driven image validation, ensuring a modern and efficient blogging experience.
 
 #### 2. Tech Stack
-
-- **JavaScript (72.4%)**: Primarily used for developing the API logic, possibly using Node.js for server-side scripting and Express.js for routing.
-- **CSS (22.6%)**: For styling any web interfaces that interact with the APIs.
-- **Solidity (3.4%)**: Used for writing smart contracts, which could be integrated with the APIs for blockchain interaction.
-- **HTML (1.6%)**: To structure the web content that interacts with the APIs.
+- **Backend**: Java, Spring Boot
+- **Database**: MySQL
+- **Caching**: Redis
+- **API Documentation**: Swagger
+- **Testing**: Bruno
 
 #### 3. Key Features
-
-- **RESTful API Endpoints**: For various CRUD operations, enabling interactions with the backend database.
-- **Smart Contract Integration**: APIs that interact with Ethereum blockchain through Solidity smart contracts.
-- **User Authentication**: Secure user authentication and authorization mechanisms.
-- **Responsive Web Interface**: Web interfaces styled with CSS to ensure responsiveness and usability across different devices.
+- **Role-Based Authorization**: Admins can manage blog posts, categories, logos, and titles, while users can read posts, leave comments, and view content. Admins can also promote or demote user roles.
+- **Advanced Capabilities**: Pagination & sorting, API versioning, Redis caching, rate limiting, AI-driven image validation, and custom exceptions for better debugging.
+- **Documentation**: Detailed Swagger documentation and a pre-configured Bruno collection for API testing.
 
 #### 4. Use Cases
-
-- **Decentralized Finance (DeFi)**: APIs for financial transactions involving smart contracts for secure and transparent operations.
-- **Web Applications**: APIs that serve as the backend for web applications, providing functionalities such as data retrieval, user management, and content delivery.
-- **Educational Tools**: Demonstrating API development and blockchain integration for educational purposes in an academic setting.
+- **Blog Management**: Organizations can use the API to create, read, update, and delete blog posts and categories.
+- **User Interaction**: Users can read blog posts, leave comments, and interact with the content.
+- **Admin Functions**: Admins can manage user roles and ensure the smooth operation of the blog platform.
 
 #### 5. Areas of Improvement
+- **Scalability**: Implementing more advanced caching mechanisms and optimizing database queries can enhance performance for high-traffic scenarios.
+- **Security**: Regular security audits and updates to address any vulnerabilities can ensure the API remains secure.
+- **Integration**: Expanding the API to support more integrations with third-party services can increase its versatility and usability in diverse environments.
 
-- **Documentation**: Comprehensive and clear documentation can greatly aid new contributors and users in understanding the project’s functionality and setup processes.
-- **Testing**: Implementing robust testing frameworks and ensuring high test coverage can improve the reliability and stability of the APIs.
-- **User Experience (UX)**: Regular updates and feedback collection from users can help in refining the interface and ensuring a seamless user experience.
-- **Security Audits**: Given the use of Solidity and potential blockchain elements, regular security audits can help in identifying and mitigating vulnerabilities in smart contracts.
+---
+
+
