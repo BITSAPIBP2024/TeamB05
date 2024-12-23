@@ -67,13 +67,13 @@ Each service operates independently and communicates via REST APIs. The project 
 - **Monitoring and Logging**: Improve monitoring and logging to quickly identify and resolve issues in a production environment.
 
 ---
-# 6. TeamB06
+## 6. TeamB06
 
-## Overview
+#### 1. Overview
 
 The Pet Health & Care Management System is a microservices-based platform designed to manage various aspects of pet health care. It ensures efficient handling of user and pet profiles, health records, medication schedules, and activity tracking. The system is modular, scalable, and supports CRUD operations for a seamless user experience.
 
-## Technology Stack
+#### 2. Technology Stack
 - **Languages**: Java, JavaScript, Python
 - **Frameworks**: Spring Boot (Java), Express.js (JavaScript)
 - **Build Tools**: Maven (Java), npm (JavaScript), pip (Python)
@@ -81,19 +81,19 @@ The Pet Health & Care Management System is a microservices-based platform design
 - **Version Control**: Git
 - **Hosting**: AWS, Cloud Foundry, Railway
 
-## Features
+#### 3. Features
 
 - **User and Pet Profile Management**: User registration, authentication, profile updates, admin onboarding, pet profile management, and health records CRUD operations.
 - **Appointment and Medication Management**: Schedule and manage appointments, medication tracking, and reminders.
 - **Health and Activity Tracking**: Log and track nutrition and activity, generate health insights.
 
-## Use Cases
+#### 4. Use Cases
 
 - **Pet Owners**: Manage pet profiles, health records, and medication schedules.
 - **Veterinarians**: Schedule and manage appointments, track pet health and activity.
 - **Admin Users**: Onboard new users, manage user and pet profiles.
 
-## Areas of Improvement
+#### 5. Areas of Improvement
 
 1. **Scalability**: Enhance the system to handle a larger number of users and pets.
 2. **Performance**: Optimize the performance of microservices for faster response times.
@@ -103,13 +103,13 @@ The Pet Health & Care Management System is a microservices-based platform design
 
 ---
 
-# 7. TeamB07
+## 7. TeamB07
 
-## Overview
+#### 1. Overview
 
 The project is a medical appointment management platform integrating AI for symptom checking and department recommendations. It serves three main stakeholders: Admin, Doctor, and Patient, each with specific roles and capabilities.
 
-## Technology Stack
+#### 2. Technology Stack
 - **Languages**: Java
 - **Frameworks**: Spring Boot
 - **Build Tool**: Maven
@@ -117,7 +117,7 @@ The project is a medical appointment management platform integrating AI for symp
 - **Database**: Not specified (assumed to be relational, e.g., MySQL or PostgreSQL)
 - **Notification Service**: Email notifications
 
-## Features
+#### 3. Features
 
 - **Appointment Management**:
     - Booking, canceling, and rescheduling appointments.
@@ -129,7 +129,7 @@ The project is a medical appointment management platform integrating AI for symp
 - **Notification Service**:
     - Email notifications for appointment confirmations, cancellations, and changes.
 
-## Use Cases
+#### 4. Use Cases
 
 - **Admin**:
     - Add, edit, and delete doctors.
@@ -144,7 +144,7 @@ The project is a medical appointment management platform integrating AI for symp
     - Browse doctors and specializations.
     - Book and cancel appointments.
 
-## Areas of Improvement
+#### 5. Areas of Improvement
 
 1. **Database Integration**: Specify and optimize the database schema.
 2. **Scalability**: Implement load balancing and caching mechanisms.
