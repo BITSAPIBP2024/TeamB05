@@ -1,14 +1,14 @@
 
-# Team B08 - Digital Collectibles Exchange
+## 8. Team B08 - ```Digital Collectibles Exchange```
 
 ---
 
-### **Overview**
+#### **Overview**
 The Digital Collectibles Exchange is a robust NFT marketplace built using Node.js and Express, designed for seamless interaction with blockchain smart contracts. It enables users to buy, sell, and create their own NFTs while managing wallets and checking token balances. The API integrates advanced features for NFT creation and secure transactions, ensuring a user-friendly and efficient experience in the decentralized digital collectibles space.
 
 ---
 
-### **Technology Stack**
+#### **Technology Stack**
 - **Backend:** Node.js with Express framework for API development.
 - **Blockchain:** Integration with smart contracts on blockchain platforms, supporting token-based operations and NFT management.
 - **Authentication:** Implements bearer token and no-auth schemes for secure access.
@@ -16,7 +16,7 @@ The Digital Collectibles Exchange is a robust NFT marketplace built using Node.j
 
 ---
 
-### **Features**
+#### **Features**
 1. **NFT Creation:**  
    - Users can mint custom NFTs with metadata, directly on the platform.
 2. **NFT Transactions:**  
@@ -30,7 +30,7 @@ The Digital Collectibles Exchange is a robust NFT marketplace built using Node.j
 
 ---
 
-### **Use Cases**
+#### **Use Cases**
 - **Art Showcase:** A digital platform for artists to showcase and sell their work.
 - **Token-Based Economy:** Building a decentralized economy powered by CSDP tokens.
 - **Resale Market:** Facilitates NFT reselling with immutable blockchain records.
@@ -38,7 +38,7 @@ The Digital Collectibles Exchange is a robust NFT marketplace built using Node.j
 
 ---
 
-### **Areas of Improvement**
+#### **Areas of Improvement**
 1. **Scalability:**  
    - Enhance infrastructure to support higher transaction volumes and reduce latency.
 2. **Security Enhancements:**  
