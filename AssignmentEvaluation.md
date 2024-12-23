@@ -31,33 +31,20 @@ The Dynamic Blog API is a highly scalable and feature-rich solution designed for
 
 
 
----
  
 ## 9.  Team B09 - ```Smart Home Device Management```
----
  
-#### **Overview**  
+#### 1. Overview
 The Smart Home Device Management is designed to provide comprehensive control and insights for managing smart home devices. It supports features such as device registration, analytics reporting, usage tracking, maintenance scheduling, and user management. With advanced capabilities like calculating environmental footprints, executing device commands, and managing user accounts, this API enables seamless integration and automation for modern smart homes.
  
----
- 
-#### **Technology Stack**  
+
+#### 2. Tech Stack
 - **Backend:** Node.js with Express for API development.  
 - **Authentication:** Implements secure authentication mechanisms (e.g., bearer tokens).  
 - **API Standards:** Compliant with OpenAPI 3.0 for standardized documentation and implementation.  
 - **DevOps:** Rate limiting and pagination support to ensure scalability and usability.  
  
----
- 
-#### **Stakeholders**  
-- **Homeowners:** Individuals using the API to manage devices in their smart homes.  
-- **Service Providers:** Maintenance teams and third-party integrators leveraging the API for operational efficiency.  
-- **Developers:** Engineers building custom applications or extending functionalities for smart home systems.  
-- **Environmental Advocates:** Stakeholders monitoring and reducing the environmental impact of device usage.  
- 
----
- 
-#### **Features**  
+#### 3. Key Features
 1. **Device Management Endpoints:**  
    - Register new devices, update device details, fetch device information, and manage device lifecycles.  
 2. **Analytics Reporting:**  
@@ -72,10 +59,9 @@ The Smart Home Device Management is designed to provide comprehensive control an
    - Run commands on devices for automation and remote control.  
 7. **Environmental Impact Metrics:**  
    - Calculate carbon footprints and monitor energy efficiency.  
+
  
----
- 
-#### **Use Cases**  
+#### 4. Use Cases
 - **Energy Efficiency Monitoring:**  
    Homeowners can analyze energy consumption and adjust device usage to save energy and reduce costs.  
 - **Maintenance Scheduling:**  
@@ -86,20 +72,10 @@ The Smart Home Device Management is designed to provide comprehensive control an
    Developers can build apps to automate device operations, such as turning lights on/off based on schedules.  
 - **Sustainability Reporting:**  
    Generate reports on environmental impact to support green initiatives and regulatory compliance.  
+
  
----
- 
-#### **Example User Journeys**  
-1. **Homeowner:**  
-   Registers a new smart thermostat, monitors its power consumption, and adjusts settings for optimal energy efficiency.  
-2. **Maintenance Team:**  
-   Fetches maintenance schedules for multiple devices and sends notifications to users about required servicing.  
-3. **Developer:**  
-   Integrates the API into a mobile app that allows users to control smart home devices and track their environmental footprints.  
- 
----
- 
-#### **Areas of Improvement**  
+#### 5. Areas of Improvement
+
 1. **Scalability:**  
    - Optimize API performance for large-scale deployment with thousands of devices and users.  
 2. **Security:**  
@@ -112,5 +88,3 @@ The Smart Home Device Management is designed to provide comprehensive control an
    - Provide examples, SDKs, and guides for developers to simplify integration.  
 6. **Real-Time Updates:**  
    - Enable real-time notifications for critical events like device malfunctions or excessive power consumption.  
- 
---- 
