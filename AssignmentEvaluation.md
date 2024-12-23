@@ -68,10 +68,10 @@ Each service operates independently and communicates via REST APIs. The project 
 
 ---
 
-## 8. Team B08 - ```Digital Collectibles Exchange```
+## 8. Team B08
+
 #### 1. Overview
 The Digital Collectibles Exchange is a robust NFT marketplace built using Node.js and Express, designed for seamless interaction with blockchain smart contracts. It enables users to buy, sell, and create their own NFTs while managing wallets and checking token balances. The API integrates advanced features for NFT creation and secure transactions, ensuring a user-friendly and efficient experience in the decentralized digital collectibles space.
-
 
 #### 2. Tech Stack
 
@@ -118,7 +118,7 @@ The Digital Collectibles Exchange is a robust NFT marketplace built using Node.j
 
 --- 
 
-## 9.  Team B09 - ```Smart Home Device Management```
+## 9.  Team B09
 
 #### 1. Overview
 The Smart Home Device Management is designed to provide comprehensive control and insights for managing smart home devices. It supports features such as device registration, analytics reporting, usage tracking, maintenance scheduling, and user management. With advanced capabilities like calculating environmental footprints, executing device commands, and managing user accounts, this API enables seamless integration and automation for modern smart homes.
