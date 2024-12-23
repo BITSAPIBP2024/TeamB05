@@ -67,6 +67,93 @@ Each service operates independently and communicates via REST APIs. The project 
 - **Monitoring and Logging**: Improve monitoring and logging to quickly identify and resolve issues in a production environment.
 
 ---
+# 6. TeamB06
+
+## Overview
+
+The Pet Health & Care Management System is a microservices-based platform designed to manage various aspects of pet health care. It ensures efficient handling of user and pet profiles, health records, medication schedules, and activity tracking. The system is modular, scalable, and supports CRUD operations for a seamless user experience.
+
+## Technology Stack
+- **Languages**: Java, JavaScript, Python
+- **Frameworks**: Spring Boot (Java), Express.js (JavaScript)
+- **Build Tools**: Maven (Java), npm (JavaScript), pip (Python)
+- **API Documentation**: Swagger
+- **Version Control**: Git
+- **Hosting**: AWS, Cloud Foundry, Railway
+
+## Features
+
+- **User and Pet Profile Management**: User registration, authentication, profile updates, admin onboarding, pet profile management, and health records CRUD operations.
+- **Appointment and Medication Management**: Schedule and manage appointments, medication tracking, and reminders.
+- **Health and Activity Tracking**: Log and track nutrition and activity, generate health insights.
+
+## Use Cases
+
+- **Pet Owners**: Manage pet profiles, health records, and medication schedules.
+- **Veterinarians**: Schedule and manage appointments, track pet health and activity.
+- **Admin Users**: Onboard new users, manage user and pet profiles.
+
+## Areas of Improvement
+
+1. **Scalability**: Enhance the system to handle a larger number of users and pets.
+2. **Performance**: Optimize the performance of microservices for faster response times.
+3. **Security**: Implement advanced security measures to protect user data.
+4. **User Interface**: Improve the user interface for better user experience.
+5. **Integration**: Integrate with third-party services for additional features like telemedicine and e-commerce for pet products.
+
+---
+
+# 7. TeamB07
+
+## Overview
+
+The project is a medical appointment management platform integrating AI for symptom checking and department recommendations. It serves three main stakeholders: Admin, Doctor, and Patient, each with specific roles and capabilities.
+
+## Technology Stack
+- **Languages**: Java
+- **Frameworks**: Spring Boot
+- **Build Tool**: Maven
+- **Authentication**: JWT
+- **Database**: Not specified (assumed to be relational, e.g., MySQL or PostgreSQL)
+- **Notification Service**: Email notifications
+
+## Features
+
+- **Appointment Management**:
+    - Booking, canceling, and rescheduling appointments.
+    - Doctors can mark appointments as complete.
+- **AI Integration**: Symptom-to-department mapping using AI.
+- **Authentication and Authorization**:
+    - Secure login for Admin, Doctor, and Patient roles.
+    - Role-based access control.
+- **Notification Service**:
+    - Email notifications for appointment confirmations, cancellations, and changes.
+
+## Use Cases
+
+- **Admin**:
+    - Add, edit, and delete doctors.
+    - View lists of doctors and patients.
+    - View all appointments.
+- **Doctor**:
+    - View and manage appointments.
+    - Update profile details.
+- **Patient**:
+    - Register and manage account.
+    - Use AI symptom checker.
+    - Browse doctors and specializations.
+    - Book and cancel appointments.
+
+## Areas of Improvement
+
+1. **Database Integration**: Specify and optimize the database schema.
+2. **Scalability**: Implement load balancing and caching mechanisms.
+3. **User Interface**: Develop a user-friendly front-end interface.
+4. **Logging and Monitoring**: Integrate logging and monitoring tools for better maintenance.
+5. **Testing**: Increase unit and integration test coverage.
+6. **Security**: Enhance security measures, such as two-factor authentication.
+
+---
 
 ## 8. Team B08
 
