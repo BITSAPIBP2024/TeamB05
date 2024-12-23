@@ -67,6 +67,7 @@ Each service operates independently and communicates via REST APIs. The project 
 - **Monitoring and Logging**: Improve monitoring and logging to quickly identify and resolve issues in a production environment.
 
 ---
+
 ## 6. TeamB06
 
 #### 1. Overview
