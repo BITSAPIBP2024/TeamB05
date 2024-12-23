@@ -71,132 +71,56 @@ Each service operates independently and communicates via REST APIs. The project 
 ## 3. Team B03
 
 #### 1. Overview
-The Learning Platform API simplifies the management of users, courses, and progress on a learning platform. It includes functionality for user registration, course enrollment, and progress tracking, catering to the needs of students and administrators.
+The **Blog API** is a RESTful backend service designed to support blogging platforms. 
 
 #### 2. Tech Stack
-
-- **Backend Framework:** Spring Boot  
-- **Database:** Not specified  
-- **Security:** JWT (JSON Web Token) for authentication  
-- **Build Tool:** Maven  
-- **Programming Language:** Java  
-
-### Libraries Used:
-- Spring Boot Starter Data JPA  
-- Spring Boot Starter Web  
-- Spring Boot Starter Security  
-- Hibernate  
-- Jakarta Persistence API  
-- Lombok  
+- **Backend**: Java, Spring Boot
+- **Database**: MySQL
+- **Caching**: Redis
+- **API Documentation**: Swagger
+- **Testing**: Bruno
 
 #### 3. Key Features
-
-### Authentication & User Management:
-- JWT-based authentication for secure access.
-- Role-based permissions (Student, Admin).
-- User registration, login, and management.
-
-### Course Management:
-- Add, update, view, and delete courses.
-- Students can browse and filter courses by level.
-
-### Enrollment & Progress Tracking:
-- Students can enroll in and deregister from courses.
-- Track progress in enrolled courses with options to view, update, or reset progress.
-
-### Admin Features:
-- Manage user accounts and courses.
-- View enrolled users and their progress.
+- **Role-Based Authorization
+- **Advanced capabilities like caching and rate limiting.
 
 #### 4. Use Cases
+- **E-commerce Platform**: Facilitates the creation and management of an online store with products, inventory, and order processing.
+- **Inventory Management**: Helps businesses manage stock levels and ensure product availability.
+- **Order Processing**: Validates and processes customer orders, ensuring a smooth transaction flow.
 
-### User Management:
-- **Students:** Register, log in, and manage their profiles.
-- **Admins:** Update, delete, and search for users, and view their enrolled courses.
-
-### Course Management:
-- **Admins:** Create, update, or delete courses and view enrolled users.
-- **Students:** Browse, filter, and enroll in courses.
-
-### Progress Tracking:
-- **Students:** Track and update progress in enrolled courses.
-- **Admins:** Retrieve progress reports for users and courses.
-
-## API Overview
-
-### User Management:
-- Endpoints for registration, login, profile management, and user data retrieval.
-
-### Course Management:
-- Endpoints for creating, updating, deleting, and retrieving courses.
-
-### Progress Tracking:
-- Endpoints for managing progress for individual students or across courses.
-
----
-
-### Example Usage:
-```json
-{
-  "username": "johndoe",
-  "password": "securepassword",
-  "role": "Student"
-}
-```
+#### 5. Areas of Improvement
+- **Error Handling**: Enhance error handling mechanisms to provide more informative and user-friendly error messages.
+- **API Rate Limiting**: Implement rate limiting to prevent abuse and ensure fair usage of the APIs.
+- **Testing**: Increase test coverage, particularly integration tests, to ensure robust interactions between microservices.
+- **Security**: Strengthen security measures, such as implementing OAuth2 for secure API access and ensuring data encryption both in transit and at rest.
+- **Performance Optimization**: Analyze and optimize the performance of APIs to handle larger volumes of requests efficiently.
+- **Monitoring and Logging**: Improve monitoring and logging to quickly identify and resolve issues in a production environment.
 
 ---
 
 ## 4. Team B04
 
-
 #### 1. Overview
-The **Blog API** is a RESTful backend service designed to support blogging platforms. It allows for the management of users, blog posts, and comments with features such as user authentication, role-based access, and secure operations. The API is built with **Node.js** and **Express**, using **MongoDB** for data storage.
+The Learning Platform API simplifies the management of users, courses, and progress on a learning platform.
 
----
 
 #### 2. Tech Stack
-- **Backend Framework**: Node.js with Express
-- **Database**: MongoDB (via Mongoose)
-- **Authentication**: JWT (JSON Web Tokens)
-- **Password Hashing**: Bcrypt for secure password storage
+- **Backend Framework:** Spring Boot  
+- **Database:** Not specified  
+- **Security:** JWT (JSON Web Token) for authentication  
+- **Build Tool:** Maven  
+- **Programming Language:** Java 
 
----
 
 #### 3. Key Features
-### User Management
-- Secure registration and login.
-- JWT-based authentication.
-- Role-based access control (User/Admin).
-- User profile management.
-- Admin privileges to update or delete user accounts.
-
-### Blog Post Management
-- Create, read, update, and delete blog posts.
-- Search posts by title.
-- Admin capabilities to moderate posts.
-
-### Comment Management
-- Add, view, update, and delete comments on blog posts.
-- Role-based restrictions for comment moderation.
-
-### Security
-- Password hashing for secure user credentials.
-- Role-based authorization for sensitive operations.
-
----
+- **JWT-based authentication for secure access.
+- **Advanced Capabilities**: Role-based permissions (Student, Admin).
 
 #### 4. Use Cases
-### User Authentication and Management
-- Users can sign up, log in, and manage their profiles.
-- Admins can manage user details and roles.
-
-### Content Creation and Management
-- Users can create and edit blog posts.
-- Admins can moderate all content.
-
-### Engagement Through Comments
-- Users can interact with posts by adding comments.
-- Admins can review and delete inappropriate comments.
+- **Students:** Register, log in, and manage their profiles.
+- **Admins:** Update, delete, search for users, and view their enrolled courses.
 
 ---
+
 
