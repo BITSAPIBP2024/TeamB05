@@ -68,6 +68,61 @@ Each service operates independently and communicates via REST APIs. The project 
 
 ---
 
+## 3. Team B03
+
+#### 1. Overview
+The **Blog API** is a RESTful backend service designed to support blogging platforms. 
+
+#### 2. Tech Stack
+- **Backend**: Java, Spring Boot
+- **Database**: MySQL
+- **Caching**: Redis
+- **API Documentation**: Swagger
+- **Testing**: Bruno
+
+#### 3. Key Features
+- **Role-Based Authorization
+- **Advanced capabilities like caching and rate limiting.
+
+#### 4. Use Cases
+- **E-commerce Platform**: Facilitates the creation and management of an online store with products, inventory, and order processing.
+- **Inventory Management**: Helps businesses manage stock levels and ensure product availability.
+- **Order Processing**: Validates and processes customer orders, ensuring a smooth transaction flow.
+
+#### 5. Areas of Improvement
+- **Error Handling**: Enhance error handling mechanisms to provide more informative and user-friendly error messages.
+- **API Rate Limiting**: Implement rate limiting to prevent abuse and ensure fair usage of the APIs.
+- **Testing**: Increase test coverage, particularly integration tests, to ensure robust interactions between microservices.
+- **Security**: Strengthen security measures, such as implementing OAuth2 for secure API access and ensuring data encryption both in transit and at rest.
+- **Performance Optimization**: Analyze and optimize the performance of APIs to handle larger volumes of requests efficiently.
+- **Monitoring and Logging**: Improve monitoring and logging to quickly identify and resolve issues in a production environment.
+
+---
+
+## 4. Team B04
+
+#### 1. Overview
+The Learning Platform API simplifies the management of users, courses, and progress on a learning platform.
+
+
+#### 2. Tech Stack
+- **Backend Framework:** Spring Boot  
+- **Database:** Not specified  
+- **Security:** JWT (JSON Web Token) for authentication  
+- **Build Tool:** Maven  
+- **Programming Language:** Java 
+
+
+#### 3. Key Features
+- **JWT-based authentication for secure access.
+- **Advanced Capabilities**: Role-based permissions (Student, Admin).
+
+#### 4. Use Cases
+- **Students:** Register, log in, and manage their profiles.
+- **Admins:** Update, delete, search for users, and view their enrolled courses.
+
+---
+
 ## 6. TeamB06
 
 #### 1. Overview
