@@ -68,82 +68,6 @@ Each service operates independently and communicates via REST APIs. The project 
 
 ---
 
-## Team B10
-#### 1. Overview
-The Service Booking System is a Spring Boot-based platform designed to facilitate service booking between clients and companies. It provides a RESTful API architecture that allows service providers to advertise their services and clients to discover, book, and review these services. The platform includes features for user authentication, service advertisement management, booking management, and review submission.
-
-#### 2. Technology Stack
-- **Backend Framework**: Spring Boot
-- **Database**: MySQL
-- **Security**: JWT (JSON Web Token) for authentication
-- **Build Tool**: Maven
-- **Programming Language**: Java
-- **Libraries**:
-  - Spring Boot Starter Data JPA
-  - Spring Boot Starter Web
-  - Spring Boot Starter Security
-  - Lombok
-  - JJWT (Java JWT)
-  - Hibernate
-  - Jakarta Persistence API
-  - Vaadin JSON
-
-#### 3. Key Features
-- **Authentication & User Management**:
-  - JWT-based authentication
-  - Role-based access control (Client, Company)
-  - Secure registration and login
-- **Client Features**:
-  - Browse and search service advertisements
-  - Book services
-  - View booking history
-  - Submit reviews for services
-- **Company Features**:
-  - Create, update, and delete service advertisements
-  - View and manage received bookings
-  - Update booking statuses
-- **Error Handling**:
-  - Custom error codes and messages
-  - Global exception handling
-- **Rate Limiting**:
-  - Limits requests to 50 per minute per IP address
-
-#### 4. Use Cases
-- **User Registration**:
-   - Clients and companies can register on the platform with their email and password.
-- **User Authentication**:
-   - Users can log in using their credentials and receive a JWT token for authenticated requests.
-- **Service Advertisement Management**:
-   - Companies can create, update, and delete service advertisements.
-- **Service Booking**:
-   - Clients can browse and search for services, and book them for specific dates.
-- **Booking Management**:
-   - Companies can view and manage bookings, updating their statuses as needed.
-- **Review Submission**:
-   - Clients can submit reviews for services they have booked.
-
-#### Areas of Improvement
-- **Error Handling**:
-   - Improve error messages to be more user-friendly and informative.
-   - Ensure consistent error handling across all endpoints.
-- **Validation**:
-   - Add more comprehensive validation for user inputs, especially during registration and booking.
-- **Security**:
-   - Implement stronger password policies and validation.
-   - Consider adding two-factor authentication (2FA) for enhanced security.
-- **Scalability**:
-   - Optimize database queries and indexing for better performance with large datasets.
-   - Implement caching mechanisms for frequently accessed data.
-- **Testing**:
-   - Increase test coverage, especially for edge cases and error scenarios.
-   - Implement integration tests to ensure the smooth functioning of the entire system.
-- **Documentation**:
-   - Improve API documentation to include detailed descriptions of endpoints, request/response formats, and example usage.
-   - Provide user guides and developer documentation for easier onboarding and usage.
-- **User Experience**:
-   - Enhance the user interface for better usability and accessibility.
-   - Provide more detailed feedback to users during interactions, such as booking confirmations and error 
-=======
 ## 6. TeamB06
 
 #### 1. Overview
@@ -335,3 +259,83 @@ The Smart Home Device Management is designed to provide comprehensive control an
    - Provide examples, SDKs, and guides for developers to simplify integration.  
 6. **Real-Time Updates:**  
    - Enable real-time notifications for critical events like device malfunctions or excessive power consumption.  
+
+---
+
+## Team B10
+
+#### 1. Overview
+The Service Booking System is a Spring Boot-based platform designed to facilitate service booking between clients and companies. It provides a RESTful API architecture that allows service providers to advertise their services and clients to discover, book, and review these services. The platform includes features for user authentication, service advertisement management, booking management, and review submission.
+
+#### 2. Tech Stack
+- **Backend Framework**: Spring Boot
+- **Database**: MySQL
+- **Security**: JWT (JSON Web Token) for authentication
+- **Build Tool**: Maven
+- **Programming Language**: Java
+- **Libraries**:
+  - Spring Boot Starter Data JPA
+  - Spring Boot Starter Web
+  - Spring Boot Starter Security
+  - Lombok
+  - JJWT (Java JWT)
+  - Hibernate
+  - Jakarta Persistence API
+  - Vaadin JSON
+
+#### 3. Key Features
+- **Authentication & User Management**:
+  - JWT-based authentication
+  - Role-based access control (Client, Company)
+  - Secure registration and login
+- **Client Features**:
+  - Browse and search service advertisements
+  - Book services
+  - View booking history
+  - Submit reviews for services
+- **Company Features**:
+  - Create, update, and delete service advertisements
+  - View and manage received bookings
+  - Update booking statuses
+- **Error Handling**:
+  - Custom error codes and messages
+  - Global exception handling
+- **Rate Limiting**:
+  - Limits requests to 50 per minute per IP address
+
+#### 4. Use Cases
+- **User Registration**:
+   - Clients and companies can register on the platform with their email and password.
+- **User Authentication**:
+   - Users can log in using their credentials and receive a JWT token for authenticated requests.
+- **Service Advertisement Management**:
+   - Companies can create, update, and delete service advertisements.
+- **Service Booking**:
+   - Clients can browse and search for services, and book them for specific dates.
+- **Booking Management**:
+   - Companies can view and manage bookings, updating their statuses as needed.
+- **Review Submission**:
+   - Clients can submit reviews for services they have booked.
+
+#### Areas of Improvement
+- **Error Handling**:
+   - Improve error messages to be more user-friendly and informative.
+   - Ensure consistent error handling across all endpoints.
+- **Validation**:
+   - Add more comprehensive validation for user inputs, especially during registration and booking.
+- **Security**:
+   - Implement stronger password policies and validation.
+   - Consider adding two-factor authentication (2FA) for enhanced security.
+- **Scalability**:
+   - Optimize database queries and indexing for better performance with large datasets.
+   - Implement caching mechanisms for frequently accessed data.
+- **Testing**:
+   - Increase test coverage, especially for edge cases and error scenarios.
+   - Implement integration tests to ensure the smooth functioning of the entire system.
+- **Documentation**:
+   - Improve API documentation to include detailed descriptions of endpoints, request/response formats, and example usage.
+   - Provide user guides and developer documentation for easier onboarding and usage.
+- **User Experience**:
+   - Enhance the user interface for better usability and accessibility.
+   - Provide more detailed feedback to users during interactions, such as booking confirmations and error 
+=======
